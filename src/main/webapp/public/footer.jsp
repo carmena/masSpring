@@ -6,7 +6,3 @@
 <script src="<%=request.getContextPath()%>/public/jvalidate/messages_es.js"></script>
 
 <script src="<%=request.getContextPath()%>/public/app/js/app3.js"></script>
-
-
-
-<!-- MOD BY JOSE-->

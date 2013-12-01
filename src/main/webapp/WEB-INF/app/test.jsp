@@ -17,7 +17,7 @@
                 <%@include file="/public/menuAdm.jsp" %>
                 <div class="span9">
 
-                    <h1>FIRST DAY SPRING MVC</h1>
+                    <h1>club app</h1>
                     <p>${mensaje}</p>
                     <hr/>
 

@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Club Admin v.1.0</title>
+        <title>Club Administrador</title>
         <%@include file="/public/header.jsp" %>
     </head>
     <body>
@@ -11,10 +11,10 @@
         <div class="container-fluid">
             <div id="login">
                 <div class="login-wrapper" data-active="log">
-                    <a class="navbar-brand" href="dashboard.html"><img src="<%=contextPath%>/public/app/img/image5.jpg" alt="Genyx admin" class="img-responsive"></a>
+                    <a class="navbar-brand" href="dashboard.html"><img src="<%=contextPath%>/public/app/img/imagen5.jpg" alt="Genyx admin" class="img-responsive"></a>
                     <div id="log">
                         <div class="page-header">
-                            <h3 class="center">Por favor ingrese sus datos...</h3>
+                            <h3 class="center">Ingrese Datos</h3>
                         </div>
                         <form role="form" id="login-form" class="form-horizontal" action="<%=contextPath%>/j_spring_security_check" method="post">
                             <div class="row">

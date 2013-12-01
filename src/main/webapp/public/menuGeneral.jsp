@@ -8,7 +8,7 @@
             <div class="container">
 
                 <i></i>
-                <a class="brand">Club admin</a>
+                <a class="brand">Club App</a>
 
 
                 <ul class="nav pull-right">
@@ -36,12 +36,7 @@
                                 <span>${usuario.nombres} ${usuario.paterno}</span>
                             </li>
                             <li class="divider"></li>
-                            <li>
-                                <a href="<%=contextPath%>/adm/admin/update/${usuario.id}">
-                                    <i class="icon-user"></i>
-                                    <span>Perfil</span>
-                                </a>
-                            </li>
+                          
                             <c:url var="logoutUrl" value="/logout"/>
                             <li>
                                 <a href="${logoutUrl}">
